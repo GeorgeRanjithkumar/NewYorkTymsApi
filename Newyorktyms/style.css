@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&family=Molle:ital@1&display=swap');
+.container-fluid>h1 {
+    font-family: 'Ballet', cursive;
+}
+
+
+/* body {
+    display: block;
+} */
+
+.card {
+    display: block;
+    transition: 3s;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+/* .hidden {
+    display: none;
+} */
+
+.container-fluid>h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 3%;
+    font-size: 65px;
+}
+
+.nav-link {
+    word-spacing: 20%;
+}
+
+
+/* a {
+    display: block;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+img {
+    height: 80px;
+}
+
+
+/* Spinners */
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+    0%,
+    70%,
+    100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+@media (min-width:768px) {
+    img {
+        height: 220px!important;
+    }
+}
+
+@media(min-width:1400px) {
+    img {
+        width: 410px !important;
+    }
+}
+
+@media(min-width:1200px) {
+    img {
+        width: 350px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .titleNav {
+        display: none;
+    }
+}
+
+@media(max-width:992px) {
+    .headeNewYork {
+        display: none;
+    }
+}
+
+ul {
+    width: 99%;
+    justify-content: space-between;
+}
+
+ul,
+li:hover {
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+li a:hover {
+    background-color: rgb(245, 231, 229);
+}
